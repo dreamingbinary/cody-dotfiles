@@ -1,4 +1,7 @@
 " VIM Configuration - Cody Krainock
+" Activate pathogen
+call pathogen#infect()
+
 " Cancel the compatibility with Vi. Essential if you want
 " to enjoy the features of Vim
 set nocompatible
@@ -42,4 +45,3 @@ filetype indent on
 " Use the dark version of Solarized
 set background=dark
 colorscheme solarized
-
