@@ -59,3 +59,6 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+" Set <Leader>
+let mapleader = ","
+
