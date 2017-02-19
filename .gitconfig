@@ -1,0 +1,5 @@
+[user]
+	name = Cody Krainock
+	email = codykrainock@gmail.com
+[credential]
+	helper = osxkeychain
