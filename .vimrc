@@ -45,3 +45,6 @@ filetype indent on
 " Use the dark version of Solarized
 set background=dark
 colorscheme solarized
+
+" Activate the NERDTree when launching vim
+autocmd vimenter * NERDTree
