@@ -69,3 +69,8 @@ nmap <leader>j mA:Ack<space>
 nmap <leader>ja mA:Ack "<C-r>=expand("<cword>")<cr>"
 nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
 
+" 2 space tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
