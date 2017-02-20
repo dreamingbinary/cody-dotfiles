@@ -14,6 +14,8 @@ The autocompleter requires installation before bootstrapping.
 
 ```bash
 $ ./.vim/bundle/youcompleteme/install.py --gocode-completer --tern-complete
+$ cd .vim/bundle/tern_for_vim/
+$ npm install
 ```
 
 # Bootstrap all the things
