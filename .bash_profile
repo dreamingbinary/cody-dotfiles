@@ -41,3 +41,5 @@ UNDERLINE="$(tput sgr 0 1)"
 INVERT="$(tput sgr 1 0)"
 NOCOLOR="$(tput sgr0)"
 
+# Git aliases
+source ~/.git_aliases
