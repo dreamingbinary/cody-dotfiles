@@ -77,3 +77,6 @@ set expandtab
 " Ctrl-P fuzzy search
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" Default ignores in fuzzy search
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+
