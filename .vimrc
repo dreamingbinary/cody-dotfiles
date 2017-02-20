@@ -135,3 +135,6 @@ au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
 au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
 au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
 
+" Get output to appear correctly (vim-go and syntastic butt heads on this one)
+let g:go_list_type = "quickfix"
+
