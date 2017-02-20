@@ -5,7 +5,22 @@ The `vim` plugins in `.vim/bundle` are simply submodules pointing to their respe
 To use them:
 
 ```bash
-$ git submodule init
-$ git submodule update
+$ git submodule update --init --recursive
+```
+
+# You Complete Me
+
+The autocompleter requires installation before bootstrapping.
+
+```bash
+$ ./.vim/bundle/youcompleteme/install.py --gocode-completer --tern-complete
+```
+
+# Bootstrap all the things
+
+Once everything is said and done:
+
+```bash
+$ source bootstrap.sh
 ```
 
