@@ -48,3 +48,7 @@ export PATH="$GOBIN:$PATH";
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
 
+# NVM
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
