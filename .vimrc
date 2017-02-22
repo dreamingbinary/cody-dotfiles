@@ -108,3 +108,8 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" Lightline
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'solarized',
+      \ }
