@@ -42,9 +42,8 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" Use the dark version of Solarized
-set background=dark
-colorscheme solarized
+" Jellybeans thee
+colorscheme jellybeans
 
 " Disabling the directional keys
 map <up> <nop>
@@ -111,5 +110,5 @@ map <Leader>a :call RunAllSpecs()<CR>
 " Lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
+      \ 'colorscheme': 'jellybeans',
       \ }
