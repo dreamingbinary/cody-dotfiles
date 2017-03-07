@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/jellybeans.vim"]
 	path = .vim/bundle/jellybeans.vim
 	url = https://github.com/nanotech/jellybeans.vim
+[submodule ".vim/bundle/lexima.vim"]
+	path = .vim/bundle/lexima.vim
+	url = https://github.com/cohama/lexima.vim
