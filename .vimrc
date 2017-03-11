@@ -73,12 +73,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Ctrl-P fuzzy search
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-" Default ignores in fuzzy search
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
 " Open go doc in vertical window, horizontal, or tab
 au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
 au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
@@ -118,4 +112,4 @@ set colorcolumn=80
 
 " FZF fuzzy finder
 set rtp+=/usr/local/opt/fzf
-
+noremap <C-p> :GFiles <CR>
