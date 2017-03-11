@@ -115,3 +115,7 @@ let g:lightline = {
 
 " Line length marker
 set colorcolumn=80
+
+" FZF fuzzy finder
+set rtp+=/usr/local/opt/fzf
+

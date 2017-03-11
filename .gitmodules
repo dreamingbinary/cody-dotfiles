@@ -58,3 +58,6 @@
 [submodule ".vim/bundle/lexima.vim"]
 	path = .vim/bundle/lexima.vim
 	url = https://github.com/cohama/lexima.vim
+[submodule ".vim/bundle/fzf.vim"]
+	path = .vim/bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
