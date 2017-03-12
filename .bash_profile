@@ -43,3 +43,6 @@ NOCOLOR="$(tput sgr0)"
 
 # Git aliases
 source ~/.git_aliases
+
+# Gruvbox theme
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"

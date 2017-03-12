@@ -42,8 +42,10 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" Jellybeans thee
-colorscheme jellybeans
+" Groovy
+colorscheme gruvbox
+set background=dark
+let g:gruvbox_contract_dark='soft'
 
 " Disabling the directional keys
 map <up> <nop>
@@ -89,9 +91,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 " Lightline
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'jellybeans',
-      \ }
+let g:lightline = { 'colorscheme': 'gruvbox' }
 
 " Line length marker
 set colorcolumn=80
