@@ -104,3 +104,6 @@ noremap <C-p> :GFiles <CR>
 " Per-project .vimrc files
 set exrc
 set secure
+
+" Ctrl-K to remove highlighted stuff
+nmap <C-k> :nohl <CR>
