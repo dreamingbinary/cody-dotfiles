@@ -43,9 +43,6 @@
 [submodule ".vim/bundle/vim-trimmer"]
 	path = .vim/bundle/vim-trimmer
 	url = https://github.com/derekprior/vim-trimmer
-[submodule ".vim/bundle/lightline.vim"]
-	path = .vim/bundle/lightline.vim
-	url = https://github.com/itchyny/lightline.vim
 [submodule ".vim/bundle/jellybeans.vim"]
 	path = .vim/bundle/jellybeans.vim
 	url = https://github.com/nanotech/jellybeans.vim

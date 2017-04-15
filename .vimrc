@@ -45,7 +45,7 @@ filetype indent on
 " Groovy
 colorscheme gruvbox
 set background=dark
-let g:gruvbox_contract_dark='soft'
+let g:gruvbox_contract_dark='hard'
 
 " Disabling the directional keys
 map <up> <nop>
@@ -89,9 +89,10 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
-" Lightline
+" Statusline
 set laststatus=2
-let g:lightline = { 'colorscheme': 'gruvbox' }
+set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l/%3L,%02c%03V%)
+set shortmess+=c " https://github.com/Valloric/YouCompleteMe/issues/1562
 
 " Line length marker
 set colorcolumn=80
