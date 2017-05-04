@@ -60,16 +60,6 @@ imap <right> <nop>
 " Set <Leader>
 let mapleader = ","
 
-" Default params for ack
-let g:ackprg="ack -H --nocolor --nogroup --column"
-
-" Add a mark and search
-nmap <leader>j mA:Ack<space>
-
-" Add a mark and search for the word under the cursor
-nmap <leader>ja mA:Ack "<C-r>=expand("<cword>")<cr>"
-nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
-
 " 2 space tabs
 set tabstop=2
 set shiftwidth=2

@@ -34,18 +34,9 @@
 [submodule ".vim/bundle/vim-rspec"]
 	path = .vim/bundle/vim-rspec
 	url = https://github.com/thoughtbot/vim-rspec.git
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/ack.vim"]
-	path = .vim/bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule ".vim/bundle/vim-trimmer"]
 	path = .vim/bundle/vim-trimmer
 	url = https://github.com/derekprior/vim-trimmer
-[submodule ".vim/bundle/jellybeans.vim"]
-	path = .vim/bundle/jellybeans.vim
-	url = https://github.com/nanotech/jellybeans.vim
 [submodule ".vim/bundle/lexima.vim"]
 	path = .vim/bundle/lexima.vim
 	url = https://github.com/cohama/lexima.vim
