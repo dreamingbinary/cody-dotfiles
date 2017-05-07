@@ -16,6 +16,7 @@ set scrolloff=3           " Display at least 3 lines around you cursor (for scro
 
 set guioptions=T          " Enable the toolbar
 
+set cursorline            " Highlight the line that the cursor is on
 " -- Search
 set ignorecase            " Ignore case when searching
 set smartcase             " If there is an uppercase in your search term
