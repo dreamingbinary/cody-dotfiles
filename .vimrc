@@ -98,3 +98,6 @@ set secure
 
 " Ctrl-K to remove highlighted stuff
 nmap <C-k> :nohl <CR>
+
+" Allow jsx in js files
+let g:jsx_ext_required = 0
