@@ -22,9 +22,6 @@
 [submodule ".vim/bundle/gruvbox"]
 	path = .vim/bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox
-[submodule ".vim/bundle/vim-startify"]
-	path = .vim/bundle/vim-startify
-	url = https://github.com/mhinz/vim-startify
 [submodule "themes/dracula"]
 	path = themes/dracula
 	url = https://github.com/dracula/terminal-app.git
