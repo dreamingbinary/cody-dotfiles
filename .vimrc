@@ -46,7 +46,7 @@ filetype indent on
 " Groovy
 colorscheme gruvbox
 set background=dark
-let g:gruvbox_contract_dark='hard'
+let g:gruvbox_contrast_dark='hard'
 
 " Disabling the directional keys
 map <up> <nop>
