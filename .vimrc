@@ -91,6 +91,7 @@ set colorcolumn=80
 " FZF fuzzy finder
 set rtp+=/usr/local/opt/fzf
 noremap <C-p> :GFiles <CR>
+noremap <C-a> :Ag <CR>
 
 " Per-project .vimrc files
 set exrc
