@@ -1,2 +1,5 @@
 # Gruvbox vim theme
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+
+# Enable `direnv`
+eval "$(direnv hook bash)"
