@@ -23,11 +23,6 @@ for option in autocd globstar; do
 	shopt -s "$option" 2> /dev/null;
 done;
 
-# Git config stuff
-git config --global user.name "Cody Krainock"
-git config --global user.email codykrainock@gmail.com
-git config --global credential.helper osxkeychain
-
 # Colors
 RED="$(tput setaf 1)"
 GREEN="$(tput setaf 2)"
