@@ -42,8 +42,4 @@ UNDERLINE="$(tput sgr 0 1)"
 INVERT="$(tput sgr 1 0)"
 NOCOLOR="$(tput sgr0)"
 
-
-# Gruvbox theme
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
-
 source ~/.bashrc
