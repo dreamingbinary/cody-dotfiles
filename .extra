@@ -3,3 +3,6 @@ source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # Enable `direnv`
 eval "$(direnv hook bash)"
+
+# fzf config
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
