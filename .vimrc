@@ -102,3 +102,6 @@ nmap <C-k> :nohl <CR>
 
 " Allow jsx in js files
 let g:jsx_ext_required = 0
+
+" Use `.bash_profile` and aliases in shell
+set shell=/bin/bash\ --rcfile\ ~/.bash_profile
