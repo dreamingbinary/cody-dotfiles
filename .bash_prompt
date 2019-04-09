@@ -12,22 +12,8 @@ function git_prompt() {
     branch=${branch##refs/heads/}
     branch=${branch:-$(git rev-parse --short HEAD)}
 
-		local dirty=
-
-		# Modified files
-		git diff --no-ext-diff --quiet --exit-code --ignore-submodules 2>/dev/null || dirty=1
-
-		# Untracked files
-		[ -z "$dirty" ] && test -n "$(git status --porcelain)" && dirty=1
-
     echo -n "[ "
-
-		if [ -n "$dirty" ]; then
-      echo -n "$COLOR_GIT_MODIFIED$branch*$COLOR_RESET"
-    else
-      echo -n "$COLOR_GIT_CLEAN$branch$COLOR_RESET"
-    fi
-
+    echo -n "$COLOR_GIT_CLEAN$branch$COLOR_RESET"
     echo -n " ]"
   fi
 }
