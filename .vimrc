@@ -16,7 +16,6 @@ set scrolloff=3           " Display at least 3 lines around you cursor (for scro
 
 set guioptions=T          " Enable the toolbar
 
-set cursorline            " Highlight the line that the cursor is on
 " -- Search
 set ignorecase            " Ignore case when searching
 set smartcase             " If there is an uppercase in your search term
@@ -93,10 +92,6 @@ set rtp+=/usr/local/opt/fzf
 noremap <C-p> :GFiles <CR>
 noremap <C-a> :Ag <CR>
 
-" Per-project .vimrc files
-set exrc
-set secure
-
 " Ctrl-K to remove highlighted stuff
 nmap <C-k> :nohl <CR>
 
@@ -105,3 +100,9 @@ let g:jsx_ext_required = 0
 
 " Use `.bash_profile` and aliases in shell
 set shell=/bin/bash\ --rcfile\ ~/.bash_profile
+
+" Easier split navigation
+map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
