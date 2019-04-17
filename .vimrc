@@ -106,5 +106,8 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
 
+set splitbelow
+set splitright
+
 " rspec devbox
 let g:rspec_command = "!~/flexport/script/devbox.rb rspec {spec}"
