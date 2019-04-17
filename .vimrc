@@ -9,7 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
@@ -125,3 +125,6 @@ set splitright
 
 " rspec devbox
 let g:rspec_command = "!~/flexport/script/devbox.rb rspec {spec}"
+
+" remove trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
