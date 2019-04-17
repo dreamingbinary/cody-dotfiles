@@ -1,6 +1,20 @@
-" VIM Configuration - Cody Krainock
-" Activate pathogen
-call pathogen#infect()
+" vim-plug
+call plug#begin('~/.vim/plugged')
+
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'morhetz/gruvbox'
+Plug 'cohama/lexima.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'tpope/vim-surround'
+Plug 'airblade/vim-gitgutter'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } 
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-rails'
+Plug 'thoughtbot/vim-rspec'
+
+call plug#end()
 
 " Cancel the compatibility with Vi. Essential if you want
 " to enjoy the features of Vim
