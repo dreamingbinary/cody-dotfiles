@@ -91,8 +91,8 @@ set rtp+=/usr/local/opt/fzf
 noremap <C-p> :GFiles <CR>
 noremap <C-a> :Ag <CR>
 
-" Ctrl-K to remove highlighted stuff
-nmap <C-k> :nohl <CR>
+" Ctrl-l to remove highlighted stuff
+nmap <Leader>x :nohl <CR>
 
 " Allow jsx in js files
 let g:jsx_ext_required = 0
