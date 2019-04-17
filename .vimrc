@@ -57,9 +57,9 @@ filetype plugin on
 filetype indent on
 
 " Groovy
-colorscheme gruvbox
 set background=dark
 let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
 
 " Disabling the directional keys
 map <up> <nop>
