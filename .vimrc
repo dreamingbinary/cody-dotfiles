@@ -106,3 +106,6 @@ map <C-H> <C-W>h
 map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
+
+" rspec devbox
+let g:rspec_command = "!~/flexport/script/devbox.rb rspec {spec}"
