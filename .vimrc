@@ -82,7 +82,6 @@ map <Leader>a :call RunAllSpecs()<CR>
 " Statusline
 set laststatus=2
 set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l/%3L,%02c%03V%)
-set shortmess+=c " https://github.com/Valloric/YouCompleteMe/issues/1562
 
 " Line length marker
 set colorcolumn=80
