@@ -13,6 +13,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
@@ -114,12 +115,7 @@ let g:jsx_ext_required = 0
 " Use `.bash_profile` and aliases in shell
 set shell=/bin/bash\ --rcfile\ ~/.bash_profile
 
-" Easier split navigation
-map <C-H> <C-W>h
-map <C-J> <C-W>j
-map <C-K> <C-W>k
-map <C-L> <C-W>l
-
+" Split down and to the right
 set splitbelow
 set splitright
 
