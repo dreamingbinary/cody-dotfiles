@@ -14,6 +14,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
@@ -57,10 +58,7 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" Groovy
-set background=dark
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+colorscheme solarized
 
 " Disabling the directional keys
 map <up> <nop>
@@ -105,6 +103,8 @@ set colorcolumn=80
 set rtp+=/usr/local/opt/fzf
 noremap <C-p> :GFiles <CR>
 noremap <C-a> :Ag <CR>
+noremap <Leader>b :Buffers <CR>
+noremap <Leader>h :Help <CR>
 
 " Ctrl-l to remove highlighted stuff
 nmap <Leader>x :nohl <CR>
@@ -124,3 +124,11 @@ let g:rspec_command = "!~/flexport/script/devbox.rb rspec {spec}"
 
 " remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" flow
+noremap <Leader>f :exe "!tmux send -t 1 'yarn run flow' Enter; select-pane -t 0 Enter"<cr><cr>
+
+" simple navigation through clist
+noremap <C-n> :cn<cr>
+
+let g:github_enterprise_urls = ['https://github.flexport.io']
