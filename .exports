@@ -30,4 +30,3 @@ export GREP_OPTIONS='--color=auto';
 # NVM
 export NVM_DIR="$HOME/.nvm"
 . /usr/local/opt/nvm/nvm.sh --no-use
-

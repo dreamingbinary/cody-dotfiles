@@ -28,6 +28,7 @@ alias grc='git rebase --continue'
 alias gra='git rebase --abort'
 alias gstat='git diff --stat'
 alias gre='git fetch origin && git rebase origin/master'
+alias gg='git grep'
 
 # push a branch, e.g.
 # `$ gup` would push the current branch to origin
