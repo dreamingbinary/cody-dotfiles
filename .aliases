@@ -144,3 +144,5 @@ alias reload="exec $SHELL -l"
 alias devbox="~/flexport/script/devbox.rb"
 
 alias weather="curl http://v2.wttr.in/"
+
+alias bastion='~/flexport/env-improvement/bin/bastion ssh --token="$BUILDKITE_TOKEN"'
