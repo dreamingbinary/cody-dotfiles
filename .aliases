@@ -146,3 +146,5 @@ alias devbox="~/flexport/script/devbox.rb"
 alias weather="curl http://v2.wttr.in/"
 
 alias bastion='~/flexport/env-improvement/bin/bastion ssh --token="$BUILDKITE_TOKEN"'
+alias genesis='~/flexport/script/genesis/genesis.rb'
+alias grpc_cli='~/grpc/bins/opt/grpc_cli'

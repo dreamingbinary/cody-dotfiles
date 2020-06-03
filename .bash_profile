@@ -24,3 +24,4 @@ for option in autocd globstar; do
 done;
 
 source ~/.bashrc
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
