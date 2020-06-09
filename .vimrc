@@ -1,7 +1,7 @@
 " vim-plug
 call plug#begin('~/.vim/plugged')
 
-Plug '/usr/local/opt/fzf'
+Plug '/home/cody/.fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'cohama/lexima.vim'
