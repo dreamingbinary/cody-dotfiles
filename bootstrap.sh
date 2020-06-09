@@ -3,9 +3,13 @@
 cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
-  git submodule update
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "themes/" \
+	rsync \
+    --exclude ".git/" \
+    --exclude ".DS_Store" \
+    --exclude "bootstrap.sh" \
+		--exclude "README.md" \
+    --exclude "LICENSE-MIT.txt" \
+    --exclude "themes/" \
     --exclude ".gitmodules" \
     --exclude ".gitignore" \
     -avh --no-perms . ~;
